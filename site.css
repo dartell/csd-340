@@ -1,0 +1,20 @@
+#container { margin-top: 50px;
+             margin-left: 100px;
+             margin-right: 100px;
+            }
+
+h1,h2,h3,h4 {background-color:grey;
+             color:black;
+             border: 1px solid ;
+             padding: 10px;
+             border-color: #D6A800;
+            }
+a style {color: darkblue;
+         text-decoration: none;
+        }
+
+a:hover {color: green;}
+
+a:visited {color: red;}
+
+/*D6A800#*/

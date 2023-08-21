@@ -1,0 +1,51 @@
+#container h1 { text-align: center;
+
+            }
+
+#left {width: 45%;
+       float: left;
+       border: solid red 1px;
+       border-radius: 15px;
+    }
+
+
+
+#right {width: 45%;
+        float: right;
+        border: dashed red 1px;
+        border-radius: 15px;
+    }
+
+h3 {font-weight: 500;}
+
+ol {font-weight: 300;
+    padding: 10px;
+}
+
+ul {font-weight: 300;
+    padding: 10px;
+    list-style-type: upper-roman;
+    }
+
+a :hover {text-decoration: underline;}
+
+
+#last {width: 100%;
+       margin-top: 20%;
+       float: right;
+       
+    }
+/*
+h1,h2,h3,h4 {background-color:grey;
+    color:black;
+    border: 1px solid ;
+    padding: 10px;
+    border-color: #D6A800;
+   }
+a style {color: darkblue;
+text-decoration: none;
+}
+
+a:hover {color: green;}
+
+a:visited {color: red;}

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Darius Dinkins">
+    <meta name="keywords" content="Bellevue, Student, HTML, CSS">
+    <meta name="Description" content="A test website for learning HTML,CSS, and Javascript">
+    <link rel="stylesheet" type="text/css" href="dinkins_Mod2_2.css">
+    <title>CSD 340 Web Development with HTML and CSS</title>
+    <script>
+        function displayImage(imageFile) {
+            var largerImage = document.getElementById("mainImage");
+            var newNode = document.createElement("img");
+            newNode.id = "mainImage";
+            newNode.src = imageFile;
+            newNode.alt = "Large Image";
+            newNode.className = "mainImage";
+            newNode.style.width = "300px";
+            newNode.style.height = "200px";
+            largerImage.parentNode.replaceChild(newNode, largerImage);
+
+        }
+    </script>
+</head>
+
+<body>
+    <br />
+    <div>
+        <a href=# onclick="cave.src='Example_10/cave_02.jpg';" ondblclick="cave.src='Example_10/cave_01.jpg';">
+            <img border=0 name="cave" src="Example_10\cave_01.jpg">
+        </a>
+    </div>
+    <br />
+    <div onclick="this.style.color='red';" onmouseout="this.style.color='black';">
+
+        Click the image to change it.  Double click the image to change it back.
+        <br />
+
+    </div>
+    <div>
+        <a href=# onclick="moon.src='Example_10/moon_02.jpg';" ondblclick="moon.src='Example_10/moon_01.jpg';">
+            <img border=0 name="moon" src="Example_10\moon_01.jpg">
+        </a>
+    </div>
+    <br />
+    <div onclick="this.style.color='red';" onmouseout="this.style.color='black';">
+
+        Click the image to change it.  Double click the image to change it back.
+        <br />
+        
+
+    </div>
+    <address>
+        <p>
+            <a href="https://www.bellevue.edu/">Bellevue University</a> <br>
+            1000 Galvin Rd S <br>
+            Bellevue, NE 68005
+        </p>
+    </address>
+    <a href="C:\Users\darge\OneDrive\Documents\6. Software Development\csd\csd-340\index.html">Landing Page</a>
+</body>
+
+</html>
